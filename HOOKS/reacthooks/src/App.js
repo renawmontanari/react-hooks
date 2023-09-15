@@ -19,7 +19,7 @@ function App() {
           </li>
           <li>
             <Link to="/about">Sobre</Link>
-          </li>
+          </li> 
         </ul>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -28,6 +28,6 @@ function App() {
       </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;
