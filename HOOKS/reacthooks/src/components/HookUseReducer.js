@@ -53,7 +53,7 @@ const HookUseReducer = () => {
         <hr />
         <h3>Tarefas:</h3>
         <form onSubmit={handleSubmit}>
-          <input 
+          <input  
             type="text" 
             onChange={(e) => setTaskText(e.target.value)} 
             value={taskText}

@@ -5,7 +5,7 @@ import HookUseState from '../components/HookUseState';
 import HookUseReducer from '../components/HookUseReducer';
 import HookUseEffects from '../components/HookUseEffects';
 
-const Home = () => {
+const Home = () => {  
   return (
     <div>
         <HookUseState />

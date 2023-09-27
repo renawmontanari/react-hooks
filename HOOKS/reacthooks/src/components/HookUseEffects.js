@@ -25,7 +25,7 @@ const HookUseEffects = () => {
       if (anotherNumber > 0) {
         console.log("Sou executado apenas quando o anotherNumber muda!");
       }
-    }, [anotherNumber]);
+    }, [anotherNumber]); 
 
   return (
     <div>
