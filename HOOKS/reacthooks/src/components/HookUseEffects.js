@@ -27,6 +27,14 @@ const HookUseEffects = () => {
       }
     }, [anotherNumber]); 
 
+    // 4- Cleanup do useEffect
+    useEffect(() => {
+      // const timer = setTimeout(() => {
+      //   console.log("hello world")
+      // }, 2000);
+      // return () => clearTimeout(timer);
+    }, [anotherNumber]);
+
   return (
     <div>
         <h2>useEffect</h2>
