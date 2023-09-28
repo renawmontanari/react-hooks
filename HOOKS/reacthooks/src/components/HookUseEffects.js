@@ -34,7 +34,7 @@ const HookUseEffects = () => {
         <button onClick={changeSomething}>Executar</button>
         <p>Another Number: {anotherNumber}</p>
         <button onClick={() => setAnotherNumber(anotherNumber + 1)}>
-          Mudar AnotherNumber!
+          Mudar AnotherNumber! 
         </button>
         <hr />
     </div>
