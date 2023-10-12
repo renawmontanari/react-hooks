@@ -8,7 +8,7 @@ const HookUseCallback = () => {
 
     const getItemsFromDatabase = useCallback(() => {
             return ["a", "b", "c"];
-    }, []);
+    }, []); 
 
   return (
     <div>
