@@ -11,7 +11,7 @@ const HookUseLayoutEffect = () => {
   useLayoutEffect(() => {
     console.log("1");
     setName("Outro nome");
-  }, []);
+  }, []); 
 
   console.log(name);
 
